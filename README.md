@@ -1,11 +1,5 @@
 # Awesome Bot Base
 
-> [!NOTE] 
-> This project **base** can be generated using the [Constant CLI](https://github.com/rinckodev/constatic)
-> See the full documentation for this base by accessing: https://constatic-docs.vercel.app/docs/discord/start
-
-This is the most complete discord bot base you've ever seen! Developed by [@rinckodev](https://github.com/rinckodev), this project uses typescript in an incredible way to provide complete structures and facilitate the development of your discord bot.
-
 > [!WARNING]
 > [NodeJs](https://nodejs.org/en) version required: 20.12 or higher
 
@@ -21,3 +15,18 @@ This is the most complete discord bot base you've ever seen! Developed by [@rinc
 - [Commands](https://constatic-docs.vercel.app/docs/discord/commands)
 - [Responder](https://constatic-docs.vercel.app/docs/discord/responders)
 - [Events](https://constatic-docs.vercel.app/docs/discord/events)
+
+## Functional Requirements
+- [ ] The bot should be able to respond to commands and messages in Discord channels.
+- [ ] the bot should be able to create an interactive menu with a create ticket button.
+- [ ] The bot should be able to create a ticket channel when the button is clicked.
+  - [ ] The bot should be able to send a interactive menu in the ticket channel with:
+    - [ ] Claim ticket button
+    - [ ] Approve payment button
+    - [ ] Close shopping cart
+- [ ] The bot should be able to organize the ticket channels in specific categories.
+  - [ ] The bot should be able to create a category for new tickets
+  - [ ] The bot should be able to create a category for pending tickets (tickets that have been claimed)
+  - [ ] The bot should be able to create a category for confirmed payment tickets
+- [ ] The bot should create a ticket channel with a emoji related to its category, the name of the user who created the ticket, and the simplified date of creation.
+- [ ] The bot should delete completed tickets after 7 days
